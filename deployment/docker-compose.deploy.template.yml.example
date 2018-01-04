@@ -1,0 +1,68 @@
+version: '2'
+
+services:
+  db:
+      build:
+        context: <app_dir>/docker/images/mysql57
+      container_name: astromancy.db.<build>
+      environment:
+        - MYSQL_DATABASE=${MYSQL_DATABASE}
+        - MYSQL_USER=${MYSQL_USER}
+        - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+        - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      volumes:
+        - <app_dir>/data/db:/var/lib/mysql
+      ports:
+        - 3306:3306
+      expose:
+        - 3306
+      networks:
+        - backend
+
+  php-fpm:
+    user: www-data
+    container_name: astromancy.php-fpm.<build>
+    env_file:
+      - <build_dir>/app.env.deploy.<build>
+    build:
+      context: <app_dir>/docker/images/php-fpm
+      args:
+          TIMEZONE: UTC
+          XDEBUG_IP_ADDRESS: ${XDEBUG_IP_ADDRESS}
+          PHP_ERROR_LOG_FILE: ${PHP_ERROR_LOG_FILE}
+    expose:
+      - 9000
+    volumes:
+      - <app_dir>/docker/images/php-fpm/php-fpm.conf:/usr/local/etc/php-fpm.conf
+      - <app_dir>/workspace:/var/www/astromancy:rw
+      - <app_dir>/logs/php:/var/log/php:rw
+      - <app_dir>/logs/astromancy:/var/log/astromancy:rw
+    networks:
+      - backend
+    links:
+    - db:host.astromancy.db
+
+  nginx:
+    build: <app_dir>/docker/images/nginx
+    container_name: astromancy.nginx.<build>
+    links:
+      - php-fpm
+    ports:
+      - 80:80
+      - 443:443
+    volumes_from:
+      - php-fpm
+    volumes:
+      - <app_dir>/logs/nginx:/var/log/nginx/astromancy:rw
+    networks:
+      - backend
+
+### Networks Setup ############################################
+
+networks:
+  backend:
+    driver: "bridge"
+
+volumes:
+  mysql:
+    driver: "local"

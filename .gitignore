@@ -1,0 +1,8 @@
+.idea/*
+/logs
+/data
+.env
+
+deployment/builds/*
+deployment/docker-compose.deploy.template.yml
+deployment/app.env.deploy.template
