@@ -175,7 +175,7 @@ return [
        // \Auth\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         \Application\Providers\EventServiceProvider::class,
-        \Application\Providers\RouteServiceProvider::class,
+       // \Application\Providers\RouteServiceProvider::class, каждый пакет сам подключает роуты
 
 
 
@@ -183,6 +183,7 @@ return [
          * Packages Service Providers...
          */
         \Application\Packages\Currency\Providers\CurrencyServiceProvider::class,
+        \Application\Packages\HomePage\Providers\HomePageServiceProvider::class,
     ],
 
     /*
