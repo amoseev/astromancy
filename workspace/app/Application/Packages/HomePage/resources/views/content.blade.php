@@ -1,21 +1,5 @@
-<div style="padding:20px;margin-bottom:20px">
-    <h1 class="text-center neon glow dark">
-        <strong>
-            Гороскоп на сегодня (11.01.2018)
-        </strong>
-    </h1>
-
-    <div>
-        Тут картинки всех знаков задиака
-    </div>
+<div class="row">
 </div>
-<h3 style="padding:20px 50px 10px 50px;" class="text-center">
-    <p>
-        Предсказание на сегодня для знака зодиака
-    </p>
-</h3>
-
-<div class="row"></div>
 
 <div class="games col-xs-12 col-sm-6 col-md-6 col-lg-6">
     <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -24,9 +8,9 @@
             <div class="div">
                 <a href="https://tellmytarot.com/free-tarot-reading/yes-no">
                     <img
-                            src="https://tellmytarot.com/uploads/6p5scu92QVadS6jJ.png"
-                            alt="Yes No Free Tarot Reading"
-                            title="Yes No Tarot" class="img">
+                        src="https://tellmytarot.com/uploads/6p5scu92QVadS6jJ.png"
+                        alt="Yes No Free Tarot Reading"
+                        title="Yes No Tarot" class="img">
                     <div style="color:black;" class="gameTitle">
                         <h3 class="neon text-center">
                             Yes/No Tarot
@@ -36,15 +20,15 @@
             </div>
         </div>
         <div style="padding-top:10px" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <p
-                    class="MsoNormal">Tarot provides the perspective needed to make difficult decisions
+            <p class="MsoNormal">
+                Tarot provides the perspective needed to make difficult decisions
                 This
                 reading helps clarify a path forward simply with yes or no.
             </p>
         </div>
         <a href="https://tellmytarot.com/free-tarot-reading/yes-no">
-            <p class="text-center">Draw your
-                card
+            <p class="text-center">
+                Draw your card
             </p>
         </a>
     </div>
@@ -89,8 +73,7 @@
         <!-- h3.text-center= data.games[0].header-->
         <div style="padding-bottom:10px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div class="div">
-                <a
-                        href="https://tellmytarot.com/free-tarot-reading/past-present-future">
+                <a href="https://tellmytarot.com/free-tarot-reading/past-present-future">
                     <img
                             src="https://tellmytarot.com/uploads/WI-JWXIjU8JDKfeA.png"
                             alt="Past Present Future 3 Card Spread Tarot" title="Past Present Future"
@@ -174,8 +157,8 @@
             </div>
         </div>
         <div style="padding-top:10px" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <p
-                    class="MsoNormal">A further dive into tarot symbolism, Discover Tarot peels&nbsp;back
+            <p class="MsoNormal">
+                A further dive into tarot symbolism, Discover Tarot peels&nbsp;back
                 the curtains&nbsp;of mysticism surrounding these ancient cards. This is a fantastic
                 self-education tool that helps teach how to do your own readings.
             </p>
@@ -188,7 +171,8 @@
     </div>
 </div>
 <p style="padding:20px 50px 10px 50px;"></p>
-<p style="text-align: center;">An online tarot reading flips&nbsp;through ancient cards the way a
+<p style="text-align: center;">
+    An online tarot reading flips&nbsp;through ancient cards the way a
     diviner would; peers into your psyche and unearths the mysteries within. Our virtual oracle renders
     fortunes, divine meanings, and predictions offering insight for you regarding life's mysteries and
     daily inquiries into work, relationships, and the psychological wellspring. Each reading&nbsp;is a

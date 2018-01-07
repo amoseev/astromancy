@@ -22,6 +22,7 @@
             <div class="container top">
                 <div class="row">
                     <div class="col-sm-9">
+                        @include('HomePage::horoskop')
                         @include('HomePage::content')
                     </div>
                     <div class="col-sm-3">
