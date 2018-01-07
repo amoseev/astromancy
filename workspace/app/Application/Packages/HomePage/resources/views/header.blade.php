@@ -11,27 +11,26 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span><span class="icon-bar"></span>
                     </button>
-                    <a href="https://tellmytarot.com/" class="navbar-brand-logo nav-brand-logo"> </a>
+                    <a href="{{ route('home') }}" class="navbar-brand-logo nav-brand-logo"> </a>
                     <div class="logo">
-                        <a href="https://tellmytarot.com/" class="navbar-brand-logo nav-brand-logo">
-                            <img src="https://tellmytarot.com/uploads/icon_white.png" width="40px" height="40px">
+                        <a href="{{ route('home') }}" class="navbar-brand-logo nav-brand-logo">
+                            <img src="" width="40px" height="40px">
                         </a>
                         <a
-                                href="https://tellmytarot.com/"
+                                href="{{ route('home') }}"
                                 style="display: inline; font-family:'HTNeonW01-Regular&quot'">
-                            Tell My Tarot
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active">
-                            <a href="https://tellmytarot.com/free-tarot-reading">
+                            <a href="{{ route('home') }}">
                                 Гороскопы
                             </a>
                         </li>
                         {{--<li><a href="#">Гадания</a></li>--}}
-                        {{--<li><a href="https://tellmytarot.com/blog">Блог</a></li>--}}
+                        {{--<li><a href="/blog">Блог</a></li>--}}
                     </ul>
                 </div>
             </div>

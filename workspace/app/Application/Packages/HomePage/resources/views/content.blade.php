@@ -1,171 +1,134 @@
 <div class="row">
-</div>
+    <div class="games col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div>
+            <!-- h3.text-center= data.games[0].header-->
+            <div style="padding-bottom:10px;">
+                <div class="div">
+                    <a
+                            href="{{ asset('images/goroskop-znaki-zodiaca.jpg') }}">
+                        <img
+                                src="http://babyben.ru/images/babyben/2016/09/kak-ljubjat-bliznecy-1.jpg"
+                                alt="Discover and Learn Tarot Symbols Reading" title="Discover Tarot"
+                                class="img">
+                        <div style="color:black;" class="gameTitle">
+                            <h3 class="neon text-center">
+                                Гороскоп по знакам Зодиака
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div style="padding-top:10px" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <p class="MsoNormal">
+                    Здесь вы найдёте зодиакальный гороскоп на 2018 год с подробным прогнозом по всем основополагающим направлениям.
+                    Вы узнаете, как вам лучше всего будет действовать в будущем году, чего остерегаться и на что обратить особое внимание.
+                </p>
+            </div>
+            <a href="{{ route('home') }}">
+                <p class="text-center">
+                    Гороскоп на 2018 год по знакам Зодиака
+                </p>
+            </a>
+        </div>
+    </div>
 
-<div class="games col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <!-- h3.text-center= data.games[0].header-->
-        <div style="padding-bottom:10px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="div">
-                <a href="https://tellmytarot.com/free-tarot-reading/yes-no">
-                    <img
-                        src="https://tellmytarot.com/uploads/6p5scu92QVadS6jJ.png"
-                        alt="Yes No Free Tarot Reading"
-                        title="Yes No Tarot" class="img">
-                    <div style="color:black;" class="gameTitle">
-                        <h3 class="neon text-center">
-                            Yes/No Tarot
-                        </h3>
-                    </div>
-                </a>
+    <div class="games col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div>
+            <!-- h3.text-center= data.games[0].header-->
+            <div style="padding-bottom:10px;">
+                <div class="div">
+                    <a
+                            href="{{ route('home') }}">
+                        <img
+                                src="{{ asset('images/chinese-horoscope.jpg') }}"
+                                alt="Discover and Learn Tarot Symbols Reading" title="Discover Tarot"
+                                class="img">
+                        <div style="color:black;" class="gameTitle">
+                            <h3 class="neon text-center">
+                                Восточный гороскоп
+                            </h3>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div style="padding-top:10px" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <p class="MsoNormal">
-                Tarot provides the perspective needed to make difficult decisions
-                This
-                reading helps clarify a path forward simply with yes or no.
-            </p>
-        </div>
-        <a href="https://tellmytarot.com/free-tarot-reading/yes-no">
-            <p class="text-center">
-                Draw your card
-            </p>
-        </a>
-    </div>
-</div>
-<div class="games col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <!-- h3.text-center= data.games[0].header-->
-        <div style="padding-bottom:10px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="div">
-                <a href="https://tellmytarot.com/free-tarot-reading/love">
-                    <div style="color:black;" class="gameTitle">
-                        <h3 class="neon text-center">
-                            Гороскоп на 2018 год по знакам Зодиака
-                        </h3>
-                    </div>
-                </a>
+            <div style="padding-top:10px" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <p class="MsoNormal">
+                    Восточный гороскоп на 2018 год, который вы найдёте здесь, поможет понять,
+                    в чём именно это должно заключаться и на что можно рассчитывать в то время, пока править балом будет Земляная Собака.
+                </p>
             </div>
+            <a href="{{ route('home') }}">
+                <p class="text-center">
+                    Восточный гороскоп на 2018 год
+                </p>
+            </a>
         </div>
-        <div style="padding-top:10px" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <p>
-                Восточный гороскоп на 2018 год
-            </p>
-        </div>
-
-    </div>
-</div>
-<div class="row"></div>
-<div class="games col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <!-- h3.text-center= data.games[0].header-->
-        <div style="padding-bottom:10px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="div">
-                <a href="https://tellmytarot.com/free-tarot-reading/past-present-future">
-                    <img
-                            src="https://tellmytarot.com/uploads/WI-JWXIjU8JDKfeA.png"
-                            alt="Past Present Future 3 Card Spread Tarot" title="Past Present Future"
-                            class="img">
-                    <div style="color:black;" class="gameTitle">
-                        <h3 class="neon text-center">Past,
-                            Present,
-                            and Future
-                        </h3>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div style="padding-top:10px" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <p>
-                Choose three cards to represent where you've come from, where you are, and where you're
-                going. This is a powerful reading for in-depth analysis of your life and goals.
-            </p>
-        </div>
-        <a href="https://tellmytarot.com/free-tarot-reading/past-present-future">
-            <p class="text-center">
-                Draw your card
-            </p>
-        </a>
-    </div>
-</div>
-<div class="games col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <!-- h3.text-center= data.games[0].header-->
-        <div style="padding-bottom:10px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="div">
-                <a href="https://tellmytarot.com/free-tarot-reading/card-of-the-day">
-                    <img
-                            src="https://tellmytarot.com/uploads/Pb76ATEbpy9mOWgf.png"
-                            alt="Card of the Day Tarot Reading"
-                            title="Card of the Day" class="img">
-                    <div style="color:black;" class="gameTitle">
-                        <h3 class="neon text-center">Card of the
-                            Day
-                        </h3>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div style="padding-top:10px" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <p>
-                Tarot is often used daily for meditation. Draw&nbsp;one card from the deck as the oracle
-                guides you in deciphering&nbsp;its meaning.&nbsp;Apply wisdom of tarot to your life,
-                taking
-                care to reflect&nbsp;on it throughout the day.
-            </p>
-        </div>
-        <a href="https://tellmytarot.com/free-tarot-reading/card-of-the-day">
-            <p class="text-center">Draw
-                your card
-            </p>
-        </a>
     </div>
 </div>
 <div class="row">
+    <div class="games col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div>
+            <!-- h3.text-center= data.games[0].header-->
+            <div style="padding-bottom:10px;">
+                <div class="div">
+                    <a
+                            href="{{ route('home') }}">
+                        <img
+                                src=" {{ asset('images/lyubovny-goroskop.jpg') }}"
+                                alt="Discover and Learn Tarot Symbols Reading" title="Discover Tarot"
+                                class="img">
+                        <div style="color:black;" class="gameTitle">
+                            <h3 class="neon text-center">
+                                Любовный гороскоп
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div style="padding-top:10px" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <p class="MsoNormal">
+                    Любовный гороскоп на 2018 год даст объективные сведения и рекомендации, актуальные именно для вашей личной жизни.
+                    Вы сможте почерпнуть массу полезной информации одной из самых животрепещущих сторон нашего существования
+                </p>
+            </div>
+            <a href="{{ route('home') }}">
+                <p class="text-center">
+                    Любовный гороскоп на 2018 год
+                </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="games col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div>
+            <!-- h3.text-center= data.games[0].header-->
+            <div style="padding-bottom:10px;">
+                <div class="div">
+                    <a
+                            href="{{ route('home') }}">
+                        <img
+                                src="{{ asset('images/znaki-zodiaca.jpg') }}"
+                                alt="Discover and Learn Tarot Symbols Reading" title="Discover Tarot"
+                                class="img">
+                        <div style="color:black;" class="gameTitle">
+                            <h3 class="neon text-center">
+                                Знаки зодиака
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div style="padding-top:10px" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <p class="MsoNormal">
+                    Зодиакальный пояс разделен на 12 секторов, каждому из которых приписываются определённые метафизические свойства, играющие роль при анализе гороскопов.
+                </p>
+            </div>
+            <a href="{{ route('home') }}">
+                <p class="text-center">
+                    Узнать знак Зодиака для гороскопа
+                </p>
+            </a>
+        </div>
+    </div>
 
 </div>
-<div class="games col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <!-- h3.text-center= data.games[0].header-->
-        <div style="padding-bottom:10px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="div">
-                <a
-                        href="https://tellmytarot.com/free-tarot-reading/discover-and-learn">
-                    <img
-                            src="https://tellmytarot.com/uploads/L3P_iG1lXBaN5zii.png"
-                            alt="Discover and Learn Tarot Symbols Reading" title="Discover Tarot"
-                            class="img">
-                    <div style="color:black;" class="gameTitle">
-                        <h3 class="neon text-center">Discover
-                            and
-                            Learn Tarot
-                        </h3>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div style="padding-top:10px" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <p class="MsoNormal">
-                A further dive into tarot symbolism, Discover Tarot peels&nbsp;back
-                the curtains&nbsp;of mysticism surrounding these ancient cards. This is a fantastic
-                self-education tool that helps teach how to do your own readings.
-            </p>
-        </div>
-        <a href="https://tellmytarot.com/free-tarot-reading/discover-and-learn">
-            <p class="text-center">
-                Draw your card
-            </p>
-        </a>
-    </div>
-</div>
-<p style="padding:20px 50px 10px 50px;"></p>
-<p style="text-align: center;">
-    An online tarot reading flips&nbsp;through ancient cards the way a
-    diviner would; peers into your psyche and unearths the mysteries within. Our virtual oracle renders
-    fortunes, divine meanings, and predictions offering insight for you regarding life's mysteries and
-    daily inquiries into work, relationships, and the psychological wellspring. Each reading&nbsp;is a
-    lens for understanding a card's significance highlighting aspects such as symbolism, history, and
-    allegories.
-</p>
-<p style="text-align: center;">&nbsp;</p>
-<p></p>
