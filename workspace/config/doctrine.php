@@ -29,6 +29,7 @@ return [
             'paths' => [
                 base_path('app/Infrastructure/EntityManager'), //because key 'paths' can't be empty
                 base_path('app/Domain/Currency/Entity'),
+                base_path('app/Domain/PredictionDaily/Entity'),
             ],
 
             'repository' => Doctrine\ORM\EntityRepository::class,
