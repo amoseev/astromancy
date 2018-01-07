@@ -1,4 +1,4 @@
-<div id="footer">
+<div id="footer" class="text-center">
     {{--<p style="margin-right: 20px;" class="pull-right"><a--}}
     {{--href="/terms-of-service">Terms of Service</a> &nbsp;&nbsp;<a--}}
     {{--href="/privacy-policy">Privacy Policy</a> &nbsp;&nbsp;<a--}}

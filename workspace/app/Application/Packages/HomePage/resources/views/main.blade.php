@@ -21,13 +21,13 @@
         <div id="body">
             <div class="container top">
                 <div class="row">
-                    <div class="col-sm-9">
+                    <div class="col-sm-12">
                         @include('HomePage::horoskop')
                         @include('HomePage::content')
                     </div>
-                    <div class="col-sm-3">
-                        @include('HomePage::right_block')
-                    </div>
+                    {{--<div class="col-sm-3">--}}
+                        {{--@include('HomePage::right_block')--}}
+                    {{--</div>--}}
                 </div>
 
             </div>
