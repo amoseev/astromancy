@@ -3,9 +3,13 @@
         <div role="navigation" class="navbar navbar-custom navbar-fixed-top affix-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" data-toggle="collapse" data-target=".navbar-collapse"
-                            class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span
-                                class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    <button type="button"
+                            data-toggle="collapse"
+                            data-target=".navbar-collapse"
+                            class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span><span class="icon-bar"></span>
                     </button>
                     <a href="https://tellmytarot.com/" class="navbar-brand-logo nav-brand-logo"> </a>
                     <div class="logo">
@@ -14,7 +18,7 @@
                         </a>
                         <a
                                 href="https://tellmytarot.com/"
-                                style="display: inline; font-family: &quot;HTNeonW01-Regular&quot;;">
+                                style="display: inline; font-family:'HTNeonW01-Regular&quot'">
                             Tell My Tarot
                         </a>
                     </div>
@@ -26,8 +30,8 @@
                                 Гороскопы
                             </a>
                         </li>
-                        <li><a href="https://tellmytarot.com/haiku-horoscopes">Гадания</a></li>
-                        <li><a href="https://tellmytarot.com/blog">Блог</a></li>
+                        {{--<li><a href="#">Гадания</a></li>--}}
+                        {{--<li><a href="https://tellmytarot.com/blog">Блог</a></li>--}}
                     </ul>
                 </div>
             </div>

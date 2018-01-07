@@ -39,13 +39,9 @@
         <div style="padding-bottom:10px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div class="div">
                 <a href="https://tellmytarot.com/free-tarot-reading/love">
-                    <img
-                            src="https://tellmytarot.com/uploads/emYWtVXsL_uWJfuo.png"
-                            alt="illustration of heart"
-                            title="Corazon card" class="img">
                     <div style="color:black;" class="gameTitle">
-                        <h3 class="neon text-center">Love
-                            Tarot
+                        <h3 class="neon text-center">
+                            Гороскоп на 2018 год по знакам Зодиака
                         </h3>
                     </div>
                 </a>
@@ -53,18 +49,10 @@
         </div>
         <div style="padding-top:10px" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
             <p>
-                Draw one card for a love&nbsp;inspired interpretation of your tarot card's meaning
-                regarding
-                your love life. Each card meaning as it relates to love and romance is unique, poetic,
-                and
-                perscriptive.
+                Восточный гороскоп на 2018 год
             </p>
         </div>
-        <a href="https://tellmytarot.com/free-tarot-reading/love">
-            <p class="text-center">Draw your
-                card
-            </p>
-        </a>
+
     </div>
 </div>
 <div class="row"></div>
