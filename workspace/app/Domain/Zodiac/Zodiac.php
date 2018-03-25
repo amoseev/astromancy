@@ -18,10 +18,24 @@ final class Zodiac
     public const VODOLEY = 11;
     public const RIBY = 12;
 
-    public static function check(int $zodiac)
+
+    /**
+     * Проверяем валиден ли int $zodiac.
+     * @param int $zodiac
+     * @throws \LogicException
+     */
+    public static function check(int $zodiac): void
     {
         if ($zodiac < 1 || $zodiac > 12) {
             throw new \LogicException(sprintf('Worng zodiac id <%s>', $zodiac));
         }
+    }
+
+    /**
+     * @return int
+     */
+    public static function getRandom(): int
+    {
+        return random_int(1, 12);
     }
 }

@@ -9,7 +9,7 @@ use Infrastructure\Repository\AbstractRepository;
 class CurrencyRepository extends AbstractRepository
 {
 
-    protected function getEntity(): string
+    protected function getClassName(): string
     {
         return Currency::class;
     }

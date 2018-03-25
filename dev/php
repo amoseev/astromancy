@@ -1,2 +1,18 @@
 #!/bin/sh
-docker exec -it -u www-data astromancy.php-fpm bash
+
+cd $(dirname $0)/../
+app_dir=$(pwd)
+deploy_dir=$app_dir/deployment
+
+last_build=0 #номер билда
+for f in $deploy_dir/builds/*; do
+    if [ -d ${f} ]; then  #если путь это папка
+        iterator_build_dir=$(basename $f); #только имя папки
+        if [ "$iterator_build_dir" -ge "$last_build" ];then
+            last_build=$iterator_build_dir;
+        fi
+
+    fi
+done
+
+docker exec -it -u www-data astromancy.php-fpm.$last_build bash

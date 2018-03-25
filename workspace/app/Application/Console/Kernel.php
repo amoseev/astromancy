@@ -36,6 +36,8 @@ class Kernel extends ConsoleKernel
     protected function commands()
     {
         $this->load(__DIR__.'/Commands');
+        $this->load(base_path('app/Domain/PredictionDaily/Command'));
+
 
         require base_path('routes/console.php');
     }

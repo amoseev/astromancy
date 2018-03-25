@@ -4,6 +4,8 @@ declare(strict_types=1);
 namespace Domain\PredictionDaily\Entity;
 
 use Doctrine\ORM\Mapping AS ORM;
+use Domain\PredictionDaily\Dto\PredictionDailyDto;
+use Domain\Zodiac\Zodiac;
 
 /**
  * @ORM\Entity
@@ -29,7 +31,7 @@ class Prediction
      * @ORM\Column(type="integer", options={"default" : 0})
      * @var int
      */
-    protected $countUsages;
+    protected $countUsages = 0;
 
     /**
      * @ORM\Column(type="integer")
@@ -41,8 +43,22 @@ class Prediction
     public function __construct(string $text, int $preferZodiacId)
     {
         $this->text = $text;
+        $this->setPreferZodiacId($preferZodiacId);
+    }
+
+    public static function createFromDto(PredictionDailyDto $predictionDailyDto): Prediction
+    {
+        return new Prediction($predictionDailyDto->getText(), $predictionDailyDto->getZodiacId());
+    }
+    /**
+     * @param int $preferZodiacId
+     */
+    private function setPreferZodiacId(int $preferZodiacId): void
+    {
+        Zodiac::check($preferZodiacId);
         $this->preferZodiacId = $preferZodiacId;
     }
+
 
     public function getId()
     {
