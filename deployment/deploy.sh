@@ -36,7 +36,7 @@ rm $build_docker_compose
 mv $build_docker_compose.temp $build_docker_compose
 
 docker-compose -f $build_docker_compose build
-docker rm -f $(docker ps -a -q)
+docker rm -f $(docker ps -a -q) >> /dev/null
 docker-compose -f $build_docker_compose up -d
 
 c_nginx_build=astromancy.nginx.$build
