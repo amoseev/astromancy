@@ -27,9 +27,9 @@ return [
             'connection' => env('DB_CONNECTION_MAIN'),
             'namespaces' => [],
             'paths' => [
-                base_path('app/Infrastructure/EntityManager'), //because key 'paths' can't be empty
-                base_path('app/Domain/Currency/Entity'),
-                base_path('app/Domain/PredictionDaily/Entity'),
+                base_path('app/App/Infrastructure/EntityManager'), //because key 'paths' can't be empty
+                base_path('app/Currency/Domain/Entity'),
+                base_path('app/PredictionDaily/Domain/Entity'),
             ],
 
             'repository' => Doctrine\ORM\EntityRepository::class,
